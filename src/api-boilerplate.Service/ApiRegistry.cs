@@ -22,5 +22,6 @@ namespace api.boilerplate.Service
         {
             return LogManager.GetLogger(context.ParentType ?? context.RootType);
         }
+
     }
 }
