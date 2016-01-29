@@ -78,6 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiEndpointsAssembly.cs" />
+    <Compile Include="GetCar\GetCarRequest.cs" />
+    <Compile Include="GetCar\GetCarResponse.cs" />
+    <Compile Include="GetCar\GetCarService.cs" />
     <Compile Include="GetPing\GetPingQuery.cs" />
     <Compile Include="GetPing\GetPingRequest.cs" />
     <Compile Include="GetPing\GetPingResponse.cs" />
@@ -86,6 +89,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Comain\Domain.csproj">
+      <Project>{512a3dce-a5eb-41ef-9a35-04818141120a}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{5782aa32-5b7d-4dd2-9295-d7082ba1c515}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
