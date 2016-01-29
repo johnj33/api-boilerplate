@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints", "Endpoints\Endp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints.Tests.Unit", "Endpoints.Tests.Unit\Endpoints.Tests.Unit.csproj", "{81AC3D1A-32C9-4E72-A3F5-7444F705F258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", ".Core\Core.csproj", "{A61E2A00-2737-4270-A45C-A8AC28921BD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{A61E2A00-2737-4270-A45C-A8AC28921BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

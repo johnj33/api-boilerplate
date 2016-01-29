@@ -110,7 +110,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\api-boilerplate.Core\Core.csproj">
+    <ProjectReference Include="..\Core\Core.csproj">
       <Project>{a61e2a00-2737-4270-a45c-a8ac28921bd8}</Project>
       <Name>Core</Name>
     </ProjectReference>
