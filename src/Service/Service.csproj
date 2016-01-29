@@ -110,13 +110,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\api-boilerplate.Core\api-boilerplate.Core.csproj">
+    <ProjectReference Include="..\api-boilerplate.Core\Core.csproj">
       <Project>{a61e2a00-2737-4270-a45c-a8ac28921bd8}</Project>
-      <Name>api-boilerplate.Core</Name>
+      <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\api-boilerplate.Endpoints\api-boilerplate.Endpoints.csproj">
+    <ProjectReference Include="..\Endpoints\Endpoints.csproj">
       <Project>{865CA053-F543-4ED2-B305-C4CEC216F3CC}</Project>
-      <Name>api-boilerplate.Endpoints</Name>
+      <Name>Endpoints</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

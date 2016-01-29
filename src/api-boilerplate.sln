@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-boilerplate.Service", "api-boilerplate.Service\api-boilerplate.Service.csproj", "{DD9FE34D-771B-40F0-A981-2FFF0A6C22CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{DD9FE34D-771B-40F0-A981-2FFF0A6C22CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-boilerplate.Endpoints", "api-boilerplate.Endpoints\api-boilerplate.Endpoints.csproj", "{865CA053-F543-4ED2-B305-C4CEC216F3CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints", "Endpoints\Endpoints.csproj", "{865CA053-F543-4ED2-B305-C4CEC216F3CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-boilerplate.Endpoints.Tests.Unit", "api-boilerplate.Endpoints.Tests.Unit\api-boilerplate.Endpoints.Tests.Unit.csproj", "{81AC3D1A-32C9-4E72-A3F5-7444F705F258}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints.Tests.Unit", "Endpoints.Tests.Unit\Endpoints.Tests.Unit.csproj", "{81AC3D1A-32C9-4E72-A3F5-7444F705F258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-boilerplate.Core", "api-boilerplate.Core\api-boilerplate.Core.csproj", "{A61E2A00-2737-4270-A45C-A8AC28921BD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", ".Core\Core.csproj", "{A61E2A00-2737-4270-A45C-A8AC28921BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
