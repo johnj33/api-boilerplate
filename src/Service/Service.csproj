@@ -115,7 +115,7 @@
       <Name>Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\Endpoints\Endpoints.csproj">
-      <Project>{865CA053-F543-4ED2-B305-C4CEC216F3CC}</Project>
+      <Project>{865ca053-f543-4ed2-b305-c4cec216f3cc}</Project>
       <Name>Endpoints</Name>
     </ProjectReference>
   </ItemGroup>

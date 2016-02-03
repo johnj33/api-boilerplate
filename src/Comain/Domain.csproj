@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A61E2A00-2737-4270-A45C-A8AC28921BD8}</ProjectGuid>
+    <ProjectGuid>{512A3DCE-A5EB-41EF-9A35-04818141120A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>api.boilerplate.Core</RootNamespace>
-    <AssemblyName>api-boilerplate.Core</AssemblyName>
+    <RootNamespace>api.boilerplate.Domain</RootNamespace>
+    <AssemblyName>api.boilerplate.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,28 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ServiceStack, Version=4.0.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ServiceStack.4.0.52\lib\net40\ServiceStack.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="ServiceStack.Client, Version=4.0.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ServiceStack.Client.4.0.52\lib\net40\ServiceStack.Client.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="ServiceStack.Common, Version=4.0.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ServiceStack.Common.4.0.52\lib\net40\ServiceStack.Common.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="ServiceStack.Interfaces, Version=4.0.0.0, Culture=neutral, PublicKeyToken=e06fbc6124f57c43, processorArchitecture=MSIL">
-      <HintPath>..\packages\ServiceStack.Interfaces.4.0.52\lib\portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="ServiceStack.Text, Version=4.0.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ServiceStack.Text.4.0.52\lib\net40\ServiceStack.Text.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,13 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiClient\ApiClient.cs" />
-    <Compile Include="ApiClient\RestClientFactory.cs" />
-    <Compile Include="Constants.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
